@@ -1,10 +1,10 @@
 name: tdlib
 
 environment:
-  sdk: ">=2.16.0 <3.0.0"
-
+  sdk: '>=3.0.6 <4.0.0'
+  
 dependencies:
   collection: ^1.0.0
-  ffi: ^1.0.0
+  ffi: ^2.1.0
   meta: ^1.0.0
   rxdart: '>=0.26.0 <1.0.0'
