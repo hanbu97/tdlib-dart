@@ -182,7 +182,7 @@ class Chat extends TdObject {
       hasProtectedContent: json['has_protected_content'] as bool,
       isTranslatable: json['is_translatable'] as bool,
       isMarkedAsUnread: json['is_marked_as_unread'] as bool,
-      isBlocked: json['is_blocked'] as bool,
+      isBlocked: json['is_blocked'] ?? false,
       hasScheduledMessages: json['has_scheduled_messages'] as bool,
       canBeDeletedOnlyForSelf: json['can_be_deleted_only_for_self'] as bool,
       canBeDeletedForAllUsers: json['can_be_deleted_for_all_users'] as bool,

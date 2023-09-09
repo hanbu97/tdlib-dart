@@ -100,7 +100,7 @@ class UserFullInfo extends TdObject {
       photo: ChatPhoto.fromJson(json['photo'] as Map<String, dynamic>?),
       publicPhoto:
           ChatPhoto.fromJson(json['public_photo'] as Map<String, dynamic>?),
-      isBlocked: json['is_blocked'] as bool,
+      isBlocked: json['is_blocked'] ?? false,
       canBeCalled: json['can_be_called'] as bool,
       supportsVideoCalls: json['supports_video_calls'] as bool,
       hasPrivateCalls: json['has_private_calls'] as bool,
