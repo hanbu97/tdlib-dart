@@ -3,9 +3,9 @@ import '../extensions/data_class_extensions.dart';
 import '../tdapi.dart';
 
 /// A chat. (Can be a private chat, basic group, supergroup, or secret chat)
-@immutable
+// @immutable
 class Chat extends TdObject {
-  const Chat({
+  Chat({
     required this.id,
     required this.type,
     required this.title,
