@@ -61,7 +61,7 @@ class Chat extends TdObject {
   final Message? lastMessage;
 
   /// [positions] Positions of the chat in chat lists
-  final List<ChatPosition> positions;
+  List<ChatPosition> positions;
 
   /// [messageSenderId] Identifier of a user or chat that is selected to send
   /// messages in the chat; may be null if the user can't change message sender
